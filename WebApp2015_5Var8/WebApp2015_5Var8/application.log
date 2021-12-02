@@ -1,0 +1,102 @@
+2021-11-08 11:08:10,651 [8772] INFO  WebApp2015_5Var8.DAO.StudentDAO [(null)] - Start
+2021-11-08 11:08:10,748 [8772] INFO  WebApp2015_5Var8.DAO.StudentDAO [(null)] - Получен весь список
+2021-11-08 11:08:15,330 [8772] INFO  WebApp2015_5Var8.DAO.StudentDAO [(null)] - Получена одна запись
+2021-11-08 11:08:20,639 [8772] INFO  WebApp2015_5Var8.DAO.StudentDAO [(null)] - Получен весь список
+2021-11-08 11:23:53,415 [17272] INFO  WebApp2015_5Var8.DAO.StudentDAO [(null)] - Start
+2021-11-08 11:23:53,619 [17272] INFO  WebApp2015_5Var8.DAO.StudentDAO [(null)] - Получен весь список
+2021-11-08 11:25:27,569 [17272] INFO  WebApp2015_5Var8.DAO.StudentDAO [(null)] - Запись добавлена
+2021-11-08 11:25:27,583 [17280] INFO  WebApp2015_5Var8.DAO.StudentDAO [(null)] - Получен весь список
+2021-11-08 11:25:34,137 [17272] INFO  WebApp2015_5Var8.DAO.StudentDAO [(null)] - Получена одна запись
+2021-11-08 11:25:35,630 [17272] INFO  WebApp2015_5Var8.DAO.StudentDAO [(null)] - Получен весь список
+2021-11-08 11:25:39,804 [17280] INFO  WebApp2015_5Var8.DAO.StudentDAO [(null)] - Получена одна запись
+2021-11-08 11:25:42,316 [17272] INFO  WebApp2015_5Var8.DAO.StudentDAO [(null)] - Запись удалена
+2021-11-08 11:25:42,325 [17284] INFO  WebApp2015_5Var8.DAO.StudentDAO [(null)] - Получен весь список
+2021-11-08 11:25:47,535 [17272] INFO  WebApp2015_5Var8.DAO.StudentDAO [(null)] - Получена одна запись
+2021-11-08 11:25:48,846 [17284] INFO  WebApp2015_5Var8.DAO.StudentDAO [(null)] - Получен весь список
+2021-11-08 11:30:40,720 [15020] INFO  WebApp2015_5Var8.DAO.StudentDAO [(null)] - Получен весь список
+2021-11-17 22:34:26,999 [4836] INFO  WebApp2015_5Var8.DAO.StudentDAO [(null)] - Start
+2021-11-17 22:34:27,170 [4836] INFO  WebApp2015_5Var8.DAO.StudentDAO [(null)] - Получен весь список
+2021-11-17 22:53:16,621 [3168] INFO  WebApp2015_5Var8.DAO.StudentDAO [(null)] - Start
+2021-11-17 22:53:16,724 [3168] INFO  WebApp2015_5Var8.DAO.StudentDAO [(null)] - Получен весь список
+2021-11-17 22:53:23,754 [4888] INFO  WebApp2015_5Var8.DAO.StudentDAO [(null)] - Получена одна запись
+2021-11-17 22:53:28,388 [3168] INFO  WebApp2015_5Var8.DAO.StudentDAO [(null)] - Запись обновлена
+2021-11-17 22:53:28,401 [4888] INFO  WebApp2015_5Var8.DAO.StudentDAO [(null)] - Получен весь список
+2021-11-18 01:03:26,473 [6432] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Start
+2021-11-18 01:03:46,759 [11336] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Start
+2021-11-18 01:03:46,887 [11336] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получен весь список
+2021-11-18 01:05:31,717 [12504] ERROR WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Ошибка при вствке данных
+System.Data.SqlClient.SqlException (0x80131904): Недопустимое имя столбца "Birth_date".
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в WebApp2015_5Var8.DAO.EmployeeDAO.AddRecord(Employee employee) в C:\Users\ysavushkin\source\repos\WebApp2015_5Var8_2\WebApp2015_5Var8\DAO\EmployeeDAO.cs:строка 159
+ClientConnectionId:93517759-e623-4044-afe3-f3e8f2d90cb3
+Error Number: 207, State: 1, Class: 16
+2021-11-18 01:05:44,957 [12552] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получен весь список
+2021-11-18 01:12:57,330 [17516] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Start
+2021-11-18 01:14:00,211 [17516] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получен весь список
+2021-11-18 01:14:59,759 [17516] ERROR WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Ошибка при вствке данных
+System.Data.SqlTypes.SqlTypeException: Переполнение SqlDateTime. Должно находиться в пределах от 1/1/1753 12:00:00 AM и 12/31/9999 11:59:59 PM.
+   в System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в WebApp2015_5Var8.DAO.EmployeeDAO.AddRecord(Employee employee) в C:\Users\ysavushkin\source\repos\WebApp2015_5Var8_2\WebApp2015_5Var8\DAO\EmployeeDAO.cs:строка 159
+2021-11-18 01:15:08,768 [17720] ERROR WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Ошибка при вствке данных
+System.Data.SqlClient.SqlException (0x80131904): Недопустимое имя столбца "Birth_date".
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в WebApp2015_5Var8.DAO.EmployeeDAO.AddRecord(Employee employee) в C:\Users\ysavushkin\source\repos\WebApp2015_5Var8_2\WebApp2015_5Var8\DAO\EmployeeDAO.cs:строка 159
+ClientConnectionId:2cc15a47-d959-4d3c-9af5-32492e2e323f
+Error Number: 207, State: 1, Class: 16
+2021-11-18 01:15:59,097 [11656] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Start
+2021-11-18 01:15:59,221 [11656] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получен весь список
+2021-11-18 01:18:34,803 [10896] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Start
+2021-11-18 01:18:34,913 [10896] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получен весь список
+2021-11-18 01:19:07,750 [10896] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Запись добавлена
+2021-11-18 01:19:07,762 [12916] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получен весь список
+2021-11-18 01:19:19,402 [10896] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получена одна запись
+2021-11-18 01:19:26,230 [10896] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получен весь список
+2021-11-18 01:19:28,103 [10896] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получена одна запись
+2021-11-18 01:19:30,428 [10896] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получена одна запись
+2021-11-18 01:19:39,882 [10896] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Запись обновлена
+2021-11-18 01:19:39,892 [17064] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получен весь список
+2021-11-18 01:19:43,917 [12916] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получена одна запись
+2021-11-18 01:19:49,006 [10896] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Запись удалена
+2021-11-18 01:19:49,016 [17064] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получен весь список
+2021-11-18 01:39:36,078 [5200] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Start
+2021-11-18 01:39:36,186 [5200] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получен весь список
+2021-11-18 01:40:46,616 [16424] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Start
+2021-11-18 01:41:00,208 [1132] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Start
+2021-11-18 01:41:00,319 [1132] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получен весь список
+2021-11-18 01:47:50,957 [1196] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Start
+2021-11-18 01:47:51,076 [1196] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получен весь список
+2021-11-18 01:50:51,343 [7880] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Start
+2021-11-18 01:50:51,462 [7880] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получен весь список
+2021-11-18 01:57:15,898 [13204] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Start
+2021-11-18 01:57:16,042 [13204] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получен весь список
+2021-11-18 01:59:30,222 [13204] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Запись добавлена
+2021-11-18 01:59:30,236 [2536] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получен весь список
+2021-11-18 02:00:23,629 [2536] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получена одна запись
+2021-11-18 02:00:27,841 [13204] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получен весь список
+2021-11-18 02:00:30,370 [13204] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получена одна запись
+2021-11-18 02:01:09,793 [13204] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получена одна запись
+2021-11-18 02:02:06,196 [2536] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Запись обновлена
+2021-11-18 02:02:06,205 [10820] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получен весь список
+2021-11-18 02:03:07,195 [2536] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получена одна запись
+2021-11-18 02:04:09,895 [13204] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Запись удалена
+2021-11-18 02:04:09,904 [10820] INFO  WebApp2015_5Var8.DAO.EmployeeDAO [(null)] - Получен весь список
